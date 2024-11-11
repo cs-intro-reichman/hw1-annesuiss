@@ -10,9 +10,9 @@ public class Bill3 {
 		String name3 = args[2];
 		String sumUser = args[3];
 		int sum = Integer.parseInt(sumUser);
+
 		// calc the bill between the three people equally
 		double sumCalc = sum;
-		//System.out.println(Math.ceil(sumCalc/3));
 		double finalPayment = Math.ceil(sumCalc/3);
 		
 		// print (1+2)
